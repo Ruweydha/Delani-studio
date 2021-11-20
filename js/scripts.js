@@ -20,3 +20,14 @@ $("#development").click(function(){
         });
     });
 });
+$("#product").click(function(){
+    $(".productImg").toggle( function(){
+        $(".ProductWording").show( function(){
+            $("#heading3").css('font-weight', 'bold');
+            $(this).click(function(){
+                $(this).hide()
+                $(".productImg").show();
+            });
+        });
+    });
+});
