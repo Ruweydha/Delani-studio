@@ -21,6 +21,17 @@ body{
 .about p{
     margin-right: 2%;
     margin-left: 2%;
-    text-indent: 50px;
     padding: 0.5%;
+}
+.services{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    height: 65vh;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+.services div{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
