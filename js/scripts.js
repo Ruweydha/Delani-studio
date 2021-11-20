@@ -1,5 +1,5 @@
 $("#design").click(function(){
-    $(".designImg").toggle( function(){
+    $(".designImg").hide( function(){
         $(".DesignWording").show( function(){
             $("#heading1").css('font-weight', 'bold');
             $(this).click(function(){
@@ -10,7 +10,7 @@ $("#design").click(function(){
     });
 });
 $("#development").click(function(){
-    $(".developmentImg").toggle( function(){
+    $(".developmentImg").hide( function(){
         $(".DevelopmentWording").show( function(){
             $("#heading2").css('font-weight', 'bold');
             $(this).click(function(){
@@ -21,7 +21,7 @@ $("#development").click(function(){
     });
 });
 $("#product").click(function(){
-    $(".productImg").toggle( function(){
+    $(".productImg").hide( function(){
         $(".ProductWording").show( function(){
             $("#heading3").css('font-weight', 'bold');
             $(this).click(function(){
