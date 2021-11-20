@@ -53,3 +53,27 @@ body{
 .one{
     position: absolute;
 }
+.contact{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    color: white;
+    
+}
+input::placeholder{
+    color: white;
+}
+input{
+    background: transparent;
+    margin: 3%;
+    border-color: white;
+
+}
+textarea{
+    background: transparent;
+    border-color: white;
+    margin-left: 3%;
+    color: white;
+}
+button{
+    margin: 2%
+}
