@@ -35,3 +35,9 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.whatWeDo{
+    margin-top: 5%;
+}
+.DesignWording,.DevelopmentWording, .ProductWording{
+    display: none;
+} 
