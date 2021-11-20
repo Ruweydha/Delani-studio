@@ -9,3 +9,14 @@ $("#design").click(function(){
         });
     });
 });
+$("#development").click(function(){
+    $(".developmentImg").toggle( function(){
+        $(".DevelopmentWording").show( function(){
+            $("#heading2").css('font-weight', 'bold');
+            $(this).click(function(){
+                $(this).hide()
+                $(".developmentImg").show();
+            });
+        });
+    });
+});
