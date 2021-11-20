@@ -18,3 +18,9 @@ body{
 .space{
     padding: 5%;
 }
+.about p{
+    margin-right: 2%;
+    margin-left: 2%;
+    text-indent: 50px;
+    padding: 0.5%;
+}
