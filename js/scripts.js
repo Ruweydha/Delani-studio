@@ -1,3 +1,25 @@
+// business logic
+function validate(){
+    let name  = $("#name").val();
+    let email = $("#email").val();
+    let message = $("message").val();
+    let form = $("#form")[0];
+    console.log(form);
+
+    if(name ==""|| email =="" || message ==""){
+        alert("Please fill in all fields");
+        return false;
+    }
+    else{
+        form.method ="post";
+        form.action = "https://gmail.us20.list-manage.com/subscribe/post?u=d0562daff28995d444155c66e&amp;id=27c5de8c4e";
+        alert(`${name} We have received your message thank you for reaching out to us`)
+        return true;
+       
+    };
+
+}
+//  User interface logic
 $("#design").click(function(){
     $(".designImg").hide( function(){
         $(".DesignWording").show( function(){
@@ -88,3 +110,9 @@ $("#eight").mouseenter(function(){
         })
     });
 })
+
+$("#form").submit(function(){
+    validate();
+})
+
+
