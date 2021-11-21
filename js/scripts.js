@@ -53,63 +53,25 @@ $("#product").click(function(){
         });
     });
 });
-$("#one").mouseenter(function(){
-    $("#jim").show(function(){
-        $(this). mouseleave(function(){
-            $(this).hide();
-        })
-    });
-})
-$("#two").mouseenter(function(){
-    $("#yellow").show(function(){
-        $(this). mouseleave(function(){
-            $(this).hide();
-        })
-    });
-})
-$("#three").mouseenter(function(){
-    $("#ontario").show(function(){
-        $(this). mouseleave(function(){
-            $(this).hide();
-        })
-    });
-})
 
-$("#four").mouseenter(function(){
-    $("#black").show(function(){
-        $(this). mouseleave(function(){
-            $(this).hide();
-        })
-    });
-})
-$("#five").mouseenter(function(){
-    $("#landing").show(function(){
-        $(this). mouseleave(function(){
-            $(this).hide();
-        })
-    });
-})
-$("#six").mouseenter(function(){
-    $("#calculate").show(function(){
-        $(this). mouseleave(function(){
-            $(this).hide();
-        })
-    });
-})
-$("#seven").mouseenter(function(){
-    $("#burned").show(function(){
-        $(this). mouseleave(function(){
-            $(this).hide();
-        })
-    });
-})
-$("#eight").mouseenter(function(){
-    $("#giraffe").show(function(){
-        $(this). mouseleave(function(){
-            $(this).hide();
-        })
-    });
-})
+function hovering(id1, id2){
+    $(id1).mouseenter(function(){
+            $(id2).show(function(){
+                 $(id2). mouseleave(function(){
+                 $(id2).hide();
+             })
+        });
+     })
+}
+hovering("#eight", "#giraffe");
+hovering("#seven", "#burned");
+hovering("#six", "#calculate");
+hovering("#five", "#landing");
+hovering("#four", "#black");
+hovering("#three", "#ontario");
+hovering("#two", "#yellow");
+hovering("#one", "#jim");
+
 
 $("#form").submit(function(){
     validate();
