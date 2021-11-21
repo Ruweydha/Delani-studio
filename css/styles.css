@@ -15,6 +15,9 @@ body{
 .first-page{
     margin-top: 6%;
 }
+.mouse{
+    margin-top: 20%
+}
 .space{
     padding: 5%;
 }
@@ -82,13 +85,14 @@ body{
     margin-bottom: 2%
     
 }
-input::placeholder{
+::placeholder{
     color: white;
 }
 input{
     background: transparent;
     margin: 3%;
     border-color: white;
+    color: white;
 
 }
 textarea{
